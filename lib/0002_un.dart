@@ -2,7 +2,16 @@ void main() {
   var f = Family('jeremy', 23, 'f');
   print('${f.name} / ${f.age} / ${f.gender}');
 
+  // put argument directly
   print(FamilyMemberWithPerson(FamilyMember.father, Family('john', 35, 'm'))
+      .personInfomation());
+
+  // put argument with variable
+
+  FamilyMember familyPersonWho = FamilyMember.daughter;
+  Family familyPerson1 = Family('Sarah', 12, 'f');
+
+  print(FamilyMemberWithPerson(familyPersonWho, familyPerson1)
       .personInfomation());
 }
 
@@ -34,7 +43,6 @@ class FamilyMemberWithPerson {
 
   personInfomation() {
     String gen = (_person._gender == 'f') ? 'She' : 'He';
-
     String result =
         'the person\'s name is ${_person.name}, $gen is ${_person.age}years old,\nand $gen is my ${_familyMember.name}';
 
