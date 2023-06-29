@@ -134,6 +134,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "lints",
+      "rootUri": "file:///C:/Users/bong/AppData/Local/Pub/Cache/hosted/pub.dev/lints-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "logging",
       "rootUri": "file:///C:/Users/bong/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.0.2",
       "packageUri": "lib/",
@@ -398,7 +404,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-29T00:13:59.862990Z",
+  "generated": "2023-06-29T00:17:04.166990Z",
   "generator": "pub",
   "generatorVersion": "3.0.2"
 }
