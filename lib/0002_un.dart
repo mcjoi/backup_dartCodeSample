@@ -70,7 +70,7 @@ class FamilyMemberInfo {
   String personInfomation() {
     final gen = (_person._gender == 'f') ? 'She' : 'He';
     final result =
-        'the person\'s name is ${_person.name}, $gen is ${_person.age}years old, and $gen is my ${_familyMember.name}';
+        "the person's name is ${_person.name}, $gen is ${_person.age}years old, and $gen is my ${_familyMember.name}";
 
     return result;
   }
